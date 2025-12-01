@@ -15,6 +15,6 @@
     display: none;
 }
 
-img.diplaySlide {  /* images that have the class */
-
+img.displaySlide {  /* images that have the class */
+    display: block;
 }
