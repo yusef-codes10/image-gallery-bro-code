@@ -9,3 +9,8 @@
     margin: auto;
     overflow: hidden;  /* in case imgs are too big */
 }
+
+.slider img {
+    width: 100%;
+    display: none;
+}
