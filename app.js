@@ -8,10 +8,15 @@ document.addEventListener("DOMContentLoaded", initializeSlider);
 
 function initializeSlider() {
   slides[slideIndex].classList.add("displaySlide");
+  intervalId =  setInterval(nextSlide, 5000); // call the next slide after 5s
+  console.log(intervalId);
 }
 
 function showSlide(index) {}
 
 function prevSlide() {}
 
-function nextSlide() {}
+function nextSlide() {
+    slideIndex++;
+    showSlide(slideIndex);
+}
