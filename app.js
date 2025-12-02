@@ -19,6 +19,8 @@ function initializeSlide() {
 }
 
 // adding event listeners
+prevBtn.addEventListener('click', prevSlide);
+nextBtn.addEventListener('click', nextSlide);
 
 
 function showSlide(index) {
@@ -34,8 +36,9 @@ function showSlide(index) {
 function nextSlide() {
   slideIndex++;
   showSlide(nextSlide);
+  console.log('nxt slide');
 }
 
 function prevSlide() {
-  
+  console.log('prev slide');
 }
