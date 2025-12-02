@@ -21,6 +21,11 @@
     display: block;
 }
 
+.slider button {
+    padding: 12px 16px;
+    cursor: pointer;
+}
+
 
 /* ! Why the other properties of the class slide such as width, height and margin are not removed 
 when the class slide is removed */
