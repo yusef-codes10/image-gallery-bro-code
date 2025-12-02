@@ -5,13 +5,13 @@ console.log(slides);
 // ! 2- declaring the index to move through the node list
 let slideIndex = 0;
 
-initializeSlide();
+// call the function after the dom content fully loaded
+document.addEventListener('DOMContentLoaded',
+  initializeSlide
+)
 // ! 3- necessary functions
 function initializeSlide() {
   // initilize the 1st img
-  console.log(
-    slides[slideIndex]
-  ); 
   slides[slideIndex].classList.add('displaySlide');
 }
 
