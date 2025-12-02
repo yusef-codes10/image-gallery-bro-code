@@ -24,6 +24,12 @@ nextBtn.addEventListener('click', nextSlide);
 
 
 function showSlide(index) {
+  if (index => slides.length) {
+    slideIndex = 0;
+  } else if (index < 0) {
+    slideIndex = slides.length - 1;
+  }
+
   // access the node list & remove the display class
   slides.forEach(
     slide => {
@@ -35,7 +41,7 @@ function showSlide(index) {
 
 function nextSlide() {
   slideIndex++;
-  showSlide(nextSlide);
+  showSlide(slideIndex);
   console.log('nxt slide');
 }
 
