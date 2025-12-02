@@ -12,7 +12,7 @@ function initializeSlide() {
   console.log(
     slides[slideIndex]
   ); 
-  slides[slideIndex].classList.remove('slide');
+  slides[slideIndex].classList.add('displaySlide');
 }
 
 function showSlide(index) {
