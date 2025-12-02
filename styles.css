@@ -26,6 +26,17 @@
     cursor: pointer;
 }
 
+.slider .prev {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slider .next {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
 /* ! Why the other properties of the class slide such as width, height and margin are not removed 
 when the class slide is removed */
