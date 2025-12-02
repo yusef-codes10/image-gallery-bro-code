@@ -10,11 +10,11 @@
     overflow: hidden;  /* in case imgs are too big */
 }
 
-.slider img {
+.img-class {
     width: 100%;
     display: none;
 }
 
-img.displaySlide {  /* images that have the class */
+.displaySlide {  /* images that have the class */
     display: block;
 }
