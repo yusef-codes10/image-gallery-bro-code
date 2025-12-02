@@ -22,7 +22,7 @@ function showSlide(index) {
       slide.classList.remove('displaySlide')
     }
   )
-  
+  slides[slideIndex].classList.add('displaySlide');
 }
 
 function nextSlide() {
