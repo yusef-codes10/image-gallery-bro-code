@@ -29,7 +29,6 @@ function showSlide(index) {
   } else if (index < 0) {
     slideIndex = slides.length - 1;
   }
-
   // access the node list & remove the display class
   slides.forEach(
     slide => {
@@ -47,4 +46,6 @@ function nextSlide() {
 
 function prevSlide() {
   console.log('prev slide');
+  slideIndex--;
+  showSlide(slideIndex);
 }
