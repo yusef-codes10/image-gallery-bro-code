@@ -20,3 +20,8 @@
 .displaySlide {  /* images that have the class */
     display: block;
 }
+
+
+/* ! Why the other properties of the class slide such as width, height and margin are not removed 
+when the class slide is removed */
+/* ! but convaniently enough, only properties that contradicts displaySlide class get removed */
