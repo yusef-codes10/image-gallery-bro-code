@@ -16,6 +16,12 @@ function initializeSlide() {
 }
 
 function showSlide(index) {
+  // access the node list & remove the display class
+  slides.forEach(
+    slide => {
+      slide.classList.remove('displaySlide')
+    }
+  )
   
 }
 
