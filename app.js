@@ -20,7 +20,8 @@ function showSlide(index) {
 }
 
 function nextSlide() {
-  
+  slideIndex++;
+  showSlide(nextSlide);
 }
 
 function prevSlide() {
