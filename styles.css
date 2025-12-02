@@ -10,7 +10,7 @@
     overflow: hidden;  /* in case imgs are too big */
 }
 
-.img-class {
+.slide {
     width: 100%;
     display: none;
 }
